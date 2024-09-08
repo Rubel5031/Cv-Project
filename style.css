@@ -1,0 +1,157 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.conteiner{
+    
+    width: 1000px;
+    background-color: rgb(153, 236, 236);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: blueviolet;
+}
+
+
+
+
+/*-------Header section start------*/
+    img{
+        height: 120px;
+        width: 120px;
+        border: 5px solid white;
+        border-radius: 50%;
+        float: left;
+    }
+
+
+    .header-h{
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+
+    }
+
+
+    .header-link{
+       float:right;
+       margin: 20px 0;
+       
+
+    }
+
+    .header-link ul{
+        list-style-type: none;
+       
+    }
+
+    .header-link ul a{
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bolder;
+
+
+    }
+
+    .header-link ul a:hover{
+        color: red;
+    }
+
+    .clear-div{
+        clear: both;
+    }
+
+    hr{
+        border: 3px solid black;
+        border-bottom: none;
+        width: 100%;
+        margin: 10px auto;
+
+        }
+
+
+        .common-hr{
+            border: 1.5px solid black;
+            width: 100%;
+           
+            
+            margin: 10px auto;
+        }
+/*-------Header section start------*/
+
+
+/*-------main section start------*/
+
+
+        /*-------personal section start------*/
+            .left-div{
+                float: left;
+                width: 30%;
+            }
+
+
+
+            .right-div{
+                float: left;
+                width: 70%;
+            }
+
+            .work-information .right-div p{
+                text-align: justify;
+
+            }
+
+        /*-------personal section end------*/
+
+
+
+        /*-------edu section start------*/
+            .left-div-edu{
+                float: left;
+                width: 50%;
+            }
+
+            .right-div-edu{
+                float: left;
+                width: 50%;
+            }
+
+        /*------edu section end------*/
+
+
+/*-------main section start------*/
+
+
+/*-------main section start------*/
+            .footer-div{
+                background-color: black;
+               text-align: center;
+                padding: 30px;
+            }
+
+
+            .footer-div a{
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                margin: 40px ;
+               
+            }
+
+            .footer-div p{
+                color: white;
+                padding: 20px auto;
+                margin-top: 20px;
+            }
+
+
+/*-------main section start------*/
